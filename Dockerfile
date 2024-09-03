@@ -1,41 +1,24 @@
-FROM ruby:latest
-ENV DEBIAN_FRONTEND noninteractive
-
-Label MAINTAINER Amir Pourmand
-
-RUN apt-get update -y && apt-get install -y --no-install-recommends \
-    locales \
-    imagemagick \
-    build-essential \
-    zlib1g-dev \
-    jupyter-nbconvert \
-    inotify-tools procps && \
-    apt-get clean && rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*
-
-
-RUN sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && \
-    locale-gen
-
-
-ENV LANG=en_US.UTF-8 \
-    LANGUAGE=en_US:en \
-    LC_ALL=en_US.UTF-8 \
-    JEKYLL_ENV=production
-
-RUN mkdir /srv/jekyll
-
-ADD Gemfile.lock /srv/jekyll
-ADD Gemfile /srv/jekyll
+FROM ruby:3.0
 
 WORKDIR /srv/jekyll
 
-# install jekyll and dependencies
-RUN gem install jekyll bundler
+# Install the correct Bundler version
+RUN gem install bundler -v 2.5.17
 
-RUN bundle install --no-cache
-# && rm -rf /var/lib/gems/3.1.0/cache
-EXPOSE 8080
+# Install Jekyll
+RUN gem install jekyll
 
-COPY bin/entry_point.sh /tmp/entry_point.sh
+# Copy the Gemfile and Gemfile.lock into the container
+COPY Gemfile* ./
 
-CMD ["/tmp/entry_point.sh"]
+# Install dependencies
+RUN bundle install
+
+# Copy the rest of the site into the container
+COPY . .
+
+# Expose port 4000 for Jekyll
+EXPOSE 4000
+
+# Command to run Jekyll
+CMD ["jekyll", "serve", "--host", "0.0.0.0"]
