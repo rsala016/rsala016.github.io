@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-07-21 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Our most recent paper: How to Estimate IRI Based on PCI Values to Report the Pavement Condition of Local Roads? gets published.

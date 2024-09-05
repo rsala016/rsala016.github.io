@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 
 <p>Welcome to my website!</p>
 My name is Raoul Salas and I am currently a PhD candidate in Transportation Engineering at Florida International University (FIU) in Miami, Florida.
-<p>My research areas of interest are:<br>Pavement Management Systems (PMS):<br>Pavement Performance Modelling<br>Sustainability in Pavements<br>AI for pavement management application</p>
+<p>My research area of interest: Pavement Management Systems (PMS)<br>1. Pavement Performance Modelling (Deterministic, Probabilistic, Artificial Intelligence)<br>2. Sustainability<br>3. Prioritization (Fuzzy logic, Analytic Hierarchy Process)</p>
 
 
 
