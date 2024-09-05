@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Florida International University</a>. 10555 W Flagler St, Miami, FL, 33174.
 
 profile:
   align: right
@@ -18,7 +18,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-My name is Raoul Salas, I am currently a PhD candidate in Transportation Engineering at Florida International University (FIU). 
-My area of interest is Pavement Management Systems (PS).
+<p>Welcome to my website!</p>
+My name is Raoul Salas and I am currently a PhD candidate in Transportation Engineering at Florida International University (FIU) in Miami, Florida.
+<p>My research areas of interest are:<br>Pavement Management Systems (PMS):<br>Pavement Performance Modelling<br>Sustainability in Pavements<br>AI for pavement management application</p>
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+
+
+
