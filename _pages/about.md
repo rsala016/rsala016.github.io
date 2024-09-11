@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='#'>Florida International University</a>. 10555 W Flagler St, Miami, FL, 33174.
 
