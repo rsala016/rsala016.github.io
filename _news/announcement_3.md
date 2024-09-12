@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our white paper: Artificial Intelligence Applications for Road Asset Management Practices gets published.
+Our white paper: Artificial Intelligence Applications for Road Asset Management Practices gets published in the International Road Federation (IRF) website.
