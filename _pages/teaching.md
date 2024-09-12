@@ -8,6 +8,6 @@ nav_order: 6
 ---
 
 TTE 5835: Pavement Engineering
-Assisted a major professor with some lectures related to:
-Pavement Engineering procedures - Fall 2023
-Artificial Intelligence Applications - Fall 2024
+
+<p>Pavement Engineering procedures - Fall 2023 - Assisted a major professor</p>
+<p>Artificial Intelligence Applications - Fall 2024 - Assisted a major professor </p>

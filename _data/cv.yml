@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Raoul E Salas
     - name: Date of Birth
-      value: 14th March 1879
+      value: 16th December 1999
     - name: Languages
-      value: English, German
+      value: English, Spanish
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Florida International University, Miami, Florida, United States
+      year: 2021 - Present
       description:
         - Description 1.
         - Description 2.
