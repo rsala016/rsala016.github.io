@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Graduation Day: Achieved a BsC in Civil Engineering at the University of Texas at El Paso (UTEP).
+Graduation Day: Achieved a BSc in Civil Engineering at the University of Texas at El Paso (UTEP).
