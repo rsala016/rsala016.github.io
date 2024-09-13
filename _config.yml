@@ -9,7 +9,8 @@ last_name: Salas
 email: rasalas@fiu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
 Raoul Salas Website
-footer_text: >
+footer_text: > 
+Raoul Salas 
 
 keywords: # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
